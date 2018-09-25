@@ -3,7 +3,7 @@ contract MyContract {
     address creator;
     uint256 myNumber;
 
-    function MyContract() public {
+    constructor() public {
         creator = msg.sender;
         myNumber = 3;
     }
